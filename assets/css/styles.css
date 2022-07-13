@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #161e28;
+}
+header{
+    /* background-color:rgba(191,170,175,255); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:30px 35px;
+
+   
+}
+#heading h1{
+    
+   color:whitesmoke;
+   font-weight: bold;;
+   font-size:4vw;;
+   margin:10px 0 0 10px;
+
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;;
+    margin-top:10px;
+    list-style: none;;
+
+}
+header nav ul li{
+    justify-content: space-between;
+    margin:20px;
+}
+header nav ul li a{
+    padding: 10px 50px;
+    font-weight: lighter;
+    font-size:1.0vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    justify-content:space-between;
+    color:white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.hero{
+    position: relative;
+    background-image: url("../images/wall.jpg");
+    height: 700px;
+    background-position: center;
+}
+#heroBoard{
+    color:white;
+    position: absolute;
+    background-color: #2d717e;
+    padding:15px;
+    right: 30px;
+    bottom: 30px;;
+}
+/*Style for Container class*/
+.container{
+ display: flex;
+ flex-wrap: nowrap;   
+ justify-content: space-between;
+ margin:30px 10px 0 30px
+}
+.containerHeading{
+    margin-top: 140px;;
+    margin-left: 40px;
+    color:white;
+    font-size: 3vw;;
+    width: 20%;
+}
+.container p{
+    width: 80%;
+    color:white;
+    border-left: 5px solid white;
+    padding:20px;
+
+    font-size: 30px;;
+}
+/*End of the Container Style*/
+
+/*Project Container Board Style*/
+.projectContainer{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   width: 80%;
+
+ 
+}
+.projectCard{
+    background-color: #2d717e;
+    border: 5px solid rgb(103, 140, 153);
+    height:400px;
+    position: relative;
+    margin-top: 20px;;
+    
+    
+}
+.projectHeading{
+    color: #06348f !important;
+    background-color: rgb(219, 214, 214);
+    position: absolute;
+    font-size: 1.8vw !important;;
+    bottom: 20px;;
+    
+    padding: 10px;
+    
+}
+    /*ProjectCard Style with Id*/
+    #firstProject{
+        background-color: #3c3e3f;
+        background-image: url("../images/hero.jpg");
+        background-position: center;
+        width: 100%;
+    }
+    #secondProject{
+        
+        background-image: url("../images/hero.jpg");
+        width: 48%;
+        margin-right: 10px;
+        height: 200px;;
+    }
+    #thirdProject{
+        width: 48%;
+        height: 200px;;
+        background-image: url("../images/hero.jpg");
+    }
+    #fourthProject{
+        width: 48%;
+        height: 200px;;
+        background-image: url("../images/hero.jpg");
+    }
+    /*ProjectCard Style with Id*/
+
+/*Prject Container Board Style end*/
