@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
         <link rel="stylesheet" href = "assets/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Saheb Bhalla</title>
     </head>
 
@@ -13,26 +14,28 @@
 
 
         <div class ="hero">
+        
             <header>
                 <div id= "heading">
                  <h1>Saheb Bhalla</h1>
-          
-                 </div>
+                </div>
+               
                  <nav>
                     <ul>
-                        <li><a href ="#">About Me</a></li>
-                        <li><a href ="#">Projects</a></li>
-                        <li><a href ="#"> Contact Me</a></li>
+                        <li><a href ="#aboutMe">About Me</a></li>
+                        <li><a href ="#projects">Projects</a></li>
+                        <li><a href ="#contactMe"> Contact Me</a></li>
                         <li><a href ="#">Resume</a></li>
                     </ul>
                  </nav>
+              
                 </header>   
             <div id ="heroBoard">
                 <h1>Full Stack Software Developer</h1>
             </div>  
         </div>
 
-        <section class="container">
+        <section class="container" id ="aboutMe">
             <h1 class="containerHeading">About Me</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -52,76 +55,61 @@
                 </p>
         </section>
        
-        <section class="container">
-            <h1 class="containerHeading">Projects</h1>
+        <section class="container" id ="projects">
+            <h1 class="containerHeading" >Projects</h1>
             <div class ="projectContainer">
-                <div class = "projectCard" id="firstProject">
-                    <h1 class="projectHeading">JS Project</h1>
+                
+                <div class = "projectCard" id="firstProject"onclick="location.href='https://sahebbhalla.github.io/run-buddy/';">
+                    <h1 class="projectHeading">Run Buddy</h1>
                     
                 </div>
-                <div class = "projectCard" id ="secondProject">
+                <div class = "projectCard" id ="secondProject" onclick="location.href='https://sahebbhalla.github.io/run-buddy/';">
                     <h1 class="projectHeading">JS Project</h1>
                 </div>
 
-                <div class = "projectCard" id ="thirdProject">
+                <div class = "projectCard" id ="thirdProject" onclick="location.href='https://sahebbhalla.github.io/run-buddy/';">
                     <h1 class="projectHeading">MERN Stack</h1>
                 </div>
 
-                <div class = "projectCard" id ="fourthProject">
+                <div class = "projectCard" id ="fourthProject" onclick="location.href='https://sahebbhalla.github.io/run-buddy/';">
                     <h1 class="projectHeading">Web API </h1>
                 </div>
-                <div class = "projectCard" id ="fourthProject">
+                <div class = "projectCard" id ="fifthProject" onclick="location.href='https://sahebbhalla.github.io/run-buddy/';">
                     <h1 class="projectHeading">Web API </h1>
                 </div>
-                <div class = "projectCard" id ="fourthProject">
+                <div class = "projectCard" id ="sixthProject" onclick="location.href='https://sahebbhalla.github.io/run-buddy/';">
+                    <h1 class="projectHeading">Web API </h1>
+                </div>
+                <div class = "projectCard" id ="seventhProject" onclick="location.href='https://sahebbhalla.github.io/run-buddy/';">
                     <h1 class="projectHeading">Web API </h1>
                 </div>
 
 
             </div>
         </section>
-       
-        <section class="container">
-            <h1 class="containerHeading">About Me</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Eum natus temporibus quisquam molestiae repellendus ratione. Quidem sit at p
-                ossimus reprehenderit provident
-                 perspiciatis suscipit, natus mollitia maxime sed non quos fugiat?
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis beatae 
-                 sint architecto ipsam facere? Optio facere in fugiat exercitationem unde
-                  numquam quisquam nobis neque ab? Hic maiores adipisci placeat vero?
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  Eum natus temporibus quisquam molestiae repellendus ratione. Quidem sit at p
-                  ossimus reprehenderit provident
-                   perspiciatis suscipit, natus mollitia maxime sed non quos fugiat?
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis beatae 
-                   sint architecto ipsam facere? Optio facere in fugiat exercitationem unde
-                    numquam quisquam nobis neque ab? Hic maiores adipisci placeat vero?            
-                </p>
-        </section>
-       
-        <section class="container">
-            <h1 class="containerHeading">About Me</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Eum natus temporibus quisquam molestiae repellendus ratione. Quidem sit at p
-                ossimus reprehenderit provident
-                 perspiciatis suscipit, natus mollitia maxime sed non quos fugiat?
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis beatae 
-                 sint architecto ipsam facere? Optio facere in fugiat exercitationem unde
-                  numquam quisquam nobis neque ab? Hic maiores adipisci placeat vero?
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  Eum natus temporibus quisquam molestiae repellendus ratione. Quidem sit at p
-                  ossimus reprehenderit provident
-                   perspiciatis suscipit, natus mollitia maxime sed non quos fugiat?
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis beatae 
-                   sint architecto ipsam facere? Optio facere in fugiat exercitationem unde
-                    numquam quisquam nobis neque ab? Hic maiores adipisci placeat vero?            
-                </p>
-        </section>
-       
+    <footer id ="contactMe">
+            <h1 >Contact Me</h1>
+            <div id ="details">
+                <div id = "socialLinks">
+                    <div>
+                        <i class="fa fa-phone"id ="phoneNumber">+1 (905)-963-1161</i>
+                    </div>
+                    <div>
+                        <a class="github-button" href="https://github.com/sahebbhalla" 
+                        data-size="large" aria-label="Follow @sahebbhalla on GitHub"id="github">
+                        Follow @sahebbhalla
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                    </div>
+                    
+               </div>
+            </div>
+    </footer>
 
+<script async defer src="https://buttons.github.io/buttons.js"></script>
     </body>
 
 
