@@ -59,7 +59,7 @@ header{
     
    color:whitesmoke;
    font-weight: bold;;
-   font-size:4vw;;
+   font-size:45px;;
    margin:10px 0 0 10px;
 
 
@@ -133,7 +133,7 @@ header nav ul li a{
 .containerHeading{
     margin-top: 0;
     color:white;
-    font-size: 4vw;;
+    font-size: 35px;;
     width: 20%;
     
 
@@ -246,6 +246,10 @@ footer h1{
     justify-content: space-between;
     padding:10px
    
+}
+#socialLinks i a{
+    color: white;
+    text-decoration: none;
 }
 
 .fa {
@@ -361,7 +365,7 @@ footer h1{
 }
 @media screen and (max-width: 575px){
     #heading h1{
-        font-size: 5vw;
+        font-size: 46px !important;
     }
     header{
         flex-direction: column;
@@ -371,11 +375,15 @@ footer h1{
     }
     nav{
         width:auto;
+        width: 70% !important;
     }
     nav ul li{
         justify-content: center;
         flex-grow: 4;
         text-align: center;
+      
+       
+      
       
         
     }
