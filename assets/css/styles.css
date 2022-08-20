@@ -188,7 +188,7 @@ header nav ul li a{
     /*ProjectCard Style with Id*/
     #firstProject{
         
-        background-image: url("../images/runBuddy.png");
+        background-image: url("../images/berg.png");
         background-position: center;
         width: 100%;
         
@@ -203,7 +203,7 @@ header nav ul li a{
     #thirdProject{
         width: 48%;
         height: 200px;;
-        background-image: url("../images/runBuddy.png");
+        background-image: url("../images/weatherApp.png");
     }
     #fourthProject{
         width: 48%;
